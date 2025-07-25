@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Little Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Little Website</h1>
+        <h4>By: Manjot Banger</h4>
+    </header>
+    <br><br>
+    <div class="content">
+        <!-- Information Bar -->
+    <a href="#description">Website Content</a>
+    <a href="#form">Form Validation</a>
+    <a href="#num">Number Generator</a>
+    <br><br>
+    
+    <h2>Welcome to my website! It will contain two different types of activities to test out, such as: <br><br>
+        1. Form Validation<br>
+        2. Number Generator<br><br>
+        Form Validation is where you type in your name and revieve a greeting. <br>
+        Number Generator is a generator which gives you different numbers.
+    </h2><br><br><br>
+
+      <h2>Form Validation</h2>
+      <input id="validate" placeholder="Enter Your Name"><br><br>
+      <button onclick="message()">Receive your message</button><br><br>
+      <p id="name2"></p><br><br></br>
+
+        <h2>Number Generator</h2>
+        <button onclick="numGen()">Get different numbers!</button><br><br>
+        <div class="box" id="resultNum">__</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

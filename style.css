@@ -1,0 +1,34 @@
+body{
+    text-align:center;
+    padding:10px;
+    margin:5px;
+    background-color: rgb(253, 218, 183);
+    color:rgb(228, 169, 130);
+}
+
+header{
+    color:rgb(233, 190, 190);
+    background-color: rgb(255, 238, 208);
+    padding:10px;
+
+}
+
+a{
+    color:rgb(192, 171, 132);
+    font-size: large;
+    background-color: antiquewhite;
+    padding:10px;
+    border-radius: 25px;
+    margin-top:10px;
+}
+
+button{
+    background-color: antiquewhite;
+    border:2px solid antiquewhite;
+    padding:10px;
+    border-radius:15px;
+}
+
+#resultNum{
+    color:rgb(0, 0, 0);
+}
